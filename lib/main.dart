@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:may15/projects/onboarding_screens/onboarding1.dart';
 import 'package:may15/projects/tasks/task1/task1.dart';
-import 'package:may15/projects/case_screen/case_screen.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 void main() {

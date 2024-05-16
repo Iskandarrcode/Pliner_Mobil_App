@@ -25,8 +25,6 @@ class _Onboarding1State extends State<Onboarding1> {
               ),
             ),
             const Onboarding2(),
-            const Onboarding3(),
-
           ],
         ));
   }

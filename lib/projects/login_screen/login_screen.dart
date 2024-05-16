@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
+import 'package:may15/projects/home_page/home_page.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -135,7 +136,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       context,
                       MaterialPageRoute(
                         builder: (context) {
-                          return const Placeholder();
+                          return const HomePageScreen();
                         },
                       ),
                     );

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
 import 'package:may15/projects/tasks/task2/task2.dart';
+import 'package:may15/projects/tasks/task3/task3.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class Task1Screen extends StatefulWidget {
@@ -145,6 +146,7 @@ class _Task1ScreenState extends State<Task1Screen> {
             ),
           ),
           const Task2Screen(),
+          const Task3Screen(),
         ],
       ),
     );

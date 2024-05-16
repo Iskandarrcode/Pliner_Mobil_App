@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
+import 'package:may15/projects/home_page/home_page.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class SmsScreen extends StatefulWidget {
@@ -67,19 +68,30 @@ class _SmsScreenState extends State<SmsScreen> {
                 onPressed: () {
                   Navigator.of(context).pop();
                 },
-                child: Container(
-                  width: 1.sw,
-                  height: 60.h,
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 19, 108, 216),
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  child: Center(
-                    child: Text(
-                      "OK",
-                      style: TextStyle(
-                        color: Colors.grey.shade300,
-                        fontSize: 18.sp,
+                child: ZoomTapAnimation(
+                  onTap: () {
+                    setState(() {
+                      Navigator.push(context, MaterialPageRoute(
+                        builder: (context) {
+                          return HomePageScreen();
+                        },
+                      ));
+                    });
+                  },
+                  child: Container(
+                    width: 1.sw,
+                    height: 60.h,
+                    decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 19, 108, 216),
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Center(
+                      child: Text(
+                        "OK",
+                        style: TextStyle(
+                          color: Colors.grey.shade300,
+                          fontSize: 18.sp,
+                        ),
                       ),
                     ),
                   ),

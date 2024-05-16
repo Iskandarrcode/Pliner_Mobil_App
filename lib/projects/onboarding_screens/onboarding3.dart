@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gap/gap.dart';
+import 'package:may15/projects/onboarding_screens/onboarding4.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class Onboarding3 extends StatefulWidget {
@@ -13,11 +14,11 @@ class Onboarding3 extends StatefulWidget {
 class _Onboarding3State extends State<Onboarding3> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(30),
-      child: Scaffold(
-        backgroundColor: const Color.fromARGB(0, 255, 255, 255),
-        body: Column(
+    return Scaffold(
+      backgroundColor: Color.fromARGB(248, 255, 255, 255),
+      body: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
           children: [
             const Gap(30),
             Center(
@@ -31,9 +32,9 @@ class _Onboarding3State extends State<Onboarding3> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                containerScrol1(),
-                const Gap(5),
                 containerScrol2(),
+                const Gap(5),
+                containerScrol1(),
                 const Gap(5),
                 containerScrol2(),
               ],
@@ -69,7 +70,7 @@ class _Onboarding3State extends State<Onboarding3> {
                     setState(() {
                       Navigator.push(context, MaterialPageRoute(
                         builder: (context) {
-                          return const Placeholder();
+                          return const Onboarding4();
                         },
                       ));
                     });
