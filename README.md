@@ -1,17 +1,5 @@
 # may15
 
-A new Flutter project.
 
-## Getting Started
+https://github.com/Iskandarrcode/Pliner_Mobil_App/assets/153985172/5f0af7f9-9994-4e61-ab84-f6e523041c5d
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Pliner_Mobil_App
